@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const AGENT_IP = '192.168.1.1'; // IP de tu antena
+const AGENT_IP = '192.168.0.57'; // IP de tu antena
 const COMMUNITY = 'public';
 
 app.get('/api/snmp', async (req, res) => {
